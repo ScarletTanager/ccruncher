@@ -10,6 +10,14 @@ cd ccruncher
 go build cmd/main.go
 ```
 
+## Use
+
+```
+ccruncher cloud_controller_ng.log
+```
+
+The output is stored in the current working directory as `ccLog.yml`.
+
 ## Future ideas
 
 - Interleaving of multiple cc log files
